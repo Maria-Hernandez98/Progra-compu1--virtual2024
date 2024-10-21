@@ -10,8 +10,15 @@ namespace miPrimerProyecto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola, chicos de programacion computacional 1, Bienvenidos...");
+            //suma de dos numeros, introducidos por el usuario");
+             Console.Write("Num 1: ");
+            int num1 = Int16.Parse(Console.ReadLine());
 
+            Console.Write("Num 2: ");
+            int num2 = Int16.Parse(Console.ReadLine());
+
+            int suma = num1 + num2;
+            Console.WriteLine("La suma es: {0}", suma);
             Console.ReadLine(); // Para que no se cierre la consola
         }
     }
